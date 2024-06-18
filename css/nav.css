@@ -1,0 +1,41 @@
+
+
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.nav-bottom ul {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    gap: 1.5rem;
+}
+
+.nav-bottom ul li {
+    padding: 0.8rem;
+}
+
+.nav-bottom ul li a {
+    font-size: 1.3rem;
+    color: #9b9699;
+    text-decoration: none;
+  }
+
+/* nav section */
+.nav-bottom-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-bottom .nav-booking {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+

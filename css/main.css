@@ -88,7 +88,7 @@
 
   
 .hero {
-    background-image: linear-gradient(rgba(14, 36, 59, 0.3), rgba(80, 166, 236, 0.6)), url(../assets/images/surgery.jpg);
+    background-image: /*linear-gradient(rgba(14, 36, 59, 0.7), rgba(80, 166, 236, 0.3)),*/ url(../assets/images/ai-generated-8713310_640.png);
     /* background-color:; */
     background-repeat: no-repeat;
     background-size: cover;

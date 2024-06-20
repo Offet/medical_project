@@ -88,7 +88,7 @@
 
   
 .hero {
-    background-image: /*linear-gradient(rgba(14, 36, 59, 0.7), rgba(80, 166, 236, 0.3)),*/ url(../assets/images/ai-generated-8713310_640.png);
+    background-image: /*linear-gradient(rgba(14, 36, 59, 0.7), rgba(80, 166, 236, 0.3)),*/ url(../assets/images/home.jpg.webp);
     /* background-color:; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,3 +120,178 @@
     border-style: none;
 }
 
+
+.procedure {
+  height: 100vh;
+  background-color: #F9F9FF;
+
+}
+
+/* shefa start */
+
+.card5 {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card5-img-container {
+  position: absolute;
+}
+.card5-img-container img {
+  height: 300px;
+  width: 300px;
+}
+
+.card5-details > p {
+  font-size: 12px;
+  margin-top: 11px;
+}
+
+.card5-details > label {
+  font-weight: bold;
+}
+
+.card5-details {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  width: 89%;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: height 0.5s ease-in-out;
+}
+.card5:hover > .card5-details {
+  height: 100px;
+}
+
+
+/* card 4 things */
+.card4 {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card4-img-container {
+  position: absolute;
+}
+.card4-img-container img {
+  height: 300px;
+  width: 300px;
+}
+
+.card4-details > p {
+  font-size: 12px;
+  margin-top: 11px;
+}
+
+.card4-details > label {
+  font-weight: bold;
+}
+
+.card4-details {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  width: 89%;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: height 0.5s ease-in-out;
+}
+.card4:hover > .card5-details {
+  height: 100px;
+}
+
+
+/* shefa end */
+
+.procedure-text {
+  text-align: center;
+}
+
+.procedure-text h2 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+
+.procedure-text p {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  color: #777;
+}
+
+.procedure-img {
+  display: flex;
+  align-content: center;
+  margin-left: 7rem;
+  /* margin-right: 10rem; */
+}
+
+.procedure-img .pro {
+  margin: 20px;
+  width: 30rem;
+}
+
+
+/* Working On the feedback Section */
+
+.client-feedback {
+  margin: 30rem;
+  align-items: center;
+}
+
+.feedback-top {
+  text-align: center;
+}
+
+.feedback-bottom {
+  display: flex;
+  justify-content: space-around
+  ;
+}
+
+.feedback-bottom img {
+  width: 600px;
+  height: 350px;
+  
+}
+
+/* .feedback-bottom .bi bi-star-fill {
+  background-color: yellow;
+} */
+
+#star-one {
+  color: #FFA500;
+}
+
+#star-two {
+  color: #FFA500;
+}
+
+#star-three {
+  color: #FFA500;
+}
+
+#star-four {
+  color: #FFA500;
+}
+
+#star-five {
+  color: #777777;
+}
+
+
+.about img {
+  width: 200px
+}
